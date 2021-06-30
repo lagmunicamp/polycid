@@ -28,7 +28,7 @@ install.packages("devtools")
 install.packages("BiocManager")
   BiocManager::install("pcaMethods")
 install.packages('DT')
-install.packages('nbclust')
+install.packages('NbClust')
 install.packages("tidyverse")
 ```
 
