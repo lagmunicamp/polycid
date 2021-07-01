@@ -17,7 +17,7 @@ The polyCID shiny app must be launched from a R session on your local machine. A
 
 ### Quick install/launch instructions
 
-To install polyCID first you need to install some required packages: 
+Before installing polyCID, update your R to a version > 4.1 and Rstudio to the latest version. We strongly recomend to update all packages, it can be done in Rstudio (Tools > Check for Package Updates). Before launching polyCID, install the following required packages: 
 
 ```r
 install.packages("shiny") 
@@ -32,12 +32,12 @@ install.packages('NbClust')
 install.packages("tidyverse")
 ```
 
-After installing those packages, the app can be obtained using the following command:
+After installing those packages, the app can be launched using the following command:
 
 ```r
 shiny::runGitHub("polycid","lagmunicamp")
 ```
-Other packages may be required or updated.
+Other packages may be required and the launch will fail, a message with the missing package will be shown. In this case, install all the new required packages until the app is launched. 
 
 
 
