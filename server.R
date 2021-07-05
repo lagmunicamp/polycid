@@ -13,7 +13,7 @@ shinyServer(function(input, output){
   output$image_menu1 <- renderUI({
     fluidRow(
       column(12,valueBox(width = NULL, "Welcome Breeder!", "polyCID - Polyploid Contaminant Identification", color="navy",icon = icon("pagelines"))),
-      column(12,box(width = NULL, title=NULL, solidHeader = TRUE, "polyCID is an user friendly R app based on preprocessed GBS data for detect and classify putative contaminants in biparental polyploid population, including apomictic clones, self-fertilization, half-siblings and/or full contaminants individuals. You can explore our simulated data to learn how to interact with the tool, as well as access, modify all datasets and adapt them to your research needs. By going through the workflow below, you will become familiar with all the steps involved in the analysis. Enjoy it!"
+      column(12,box(width = NULL, title=NULL, solidHeader = TRUE, "polyCID is an user friendly R shiny app based on preprocessed GBS data for detection and classification of putative contaminants in biparental polyploid populations, including apomictic clones, self-fertilization, half-siblings and/or full contaminants individuals. You can explore our simulated data to learn how to interact with the tool, as well as access, modify all datasets and adapt them to your research needs. By going through the workflow below, you will become familiar with all the steps involved in the analysis. Enjoy it!"
       )),
       column(12,renderImage({return(list(src = "www/workflow.jpg",filetype = "image/png",width = "70%",height = "110%",style="display: block; margin-left: auto; margin-right: auto;"))},deleteFile=FALSE)
       ))
