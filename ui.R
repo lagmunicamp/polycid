@@ -35,8 +35,8 @@ shinyUI(
         tabItem(tabName = "team", wellPanel(
           box(title = "An automated SNP-based approach for contaminant identification in biparental polyploid progenies of tropical forage grasses", background = "black", solidHeader = TRUE, width = NULL,withTags({
             div(class="header",checked=NA,
-                "Available paper at ", a(href="https://www.biorxiv.org/", "bioRxiv")," server.",br(),
-                "Documentation available at ", a(href="https://github.com/", "GitHub")," server."
+                "Available paper at ", a(href="https://www.biorxiv.org/content/10.1101/2021.07.01.450796v1.full", "bioRxiv")," server.",br(),
+                "Documentation available at ", a(href="https://github.com/lagmunicamp/polycid", "GitHub")," server."
             )
           })),
           helpText(
