@@ -1,4 +1,4 @@
-# polyCID
+![logo_final_6](https://user-images.githubusercontent.com/84511468/124519869-09562800-ddc1-11eb-86d8-14a836b0c8f8.png)
 
 polyCID is an user friendly R shiny app based on preprocessed GBS data for detection and classification of putative contaminants in biparental polyploid populations, including apomictic clones, self-fertilization, half-siblings and/or full contaminants individuals. You can explore our simulated data to learn how to interact with the tool, as well as access, modify all datasets and adapt them to your research needs. By going through the workflow below, you will become familiar with all the steps involved in the analysis. Enjoy it!
 
