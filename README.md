@@ -40,7 +40,8 @@ shiny::runGitHub("polycid","lagmunicamp")
 ```
 Other packages may be required and the launch will fail, a message with the missing package will be shown. In this case, install all the new required packages until the app is launched. 
 
-## 
+## polyCID app usage guide
+![1](https://user-images.githubusercontent.com/84511468/124524854-1bd95d00-ddd3-11eb-8531-2cc6e3085c78.png)
 
 
 
