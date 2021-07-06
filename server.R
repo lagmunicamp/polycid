@@ -51,7 +51,7 @@ shinyServer(function(input, output){
              ),
              uiOutput("insertion")
       ),
-      column(7, actionButton("go", "Analyse", width = "200px"))
+      column(7, actionButton("go", "Analyze", width = "200px"))
     ))
   })
   
