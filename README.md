@@ -45,13 +45,16 @@ After launching the app, your will be directed to the Project page, showing a pr
 ![1](https://user-images.githubusercontent.com/84511468/124525323-3dd3df00-ddd5-11eb-80d0-0ebf10848c17.png)
 
 In the Tool page, the analysis can be performed using the 8 tabs. In the tab Input Data, a dataset must be loaded. To get familiar with the app, you can run the analysis using a provided dataset, just click in Analyze.
-![2](https://user-images.githubusercontent.com/84511468/124525879-46c5b000-ddd7-11eb-8298-a2aaa02224cc.png)
-  
+![2](https://user-images.githubusercontent.com/84511468/124632573-da8c9000-de5a-11eb-9dd1-7262baf7a5ae.png)
+
 In the Selecting Parents tab, it is necessary to define the progeny parents. Beyong that, it is possible to add artificial clones of the parents and use the next tab to analyze how the PCA scatterplot dispersion pattern changes with this insertion. Click in Select to run the PCA.
 ![3](https://user-images.githubusercontent.com/84511468/124526938-922d8d80-ddda-11eb-935f-c53eed702417.png)
   
 The PCA tab shows the PCA scatterplot of the population, it can be redone by clickind Select again in the Selecting Parents tab. Clicking in the Yes! buttom makes the app run the GA and CA, it may take several minutes depending on the dataset size. A dataset with 238 samples and 1195 markers takes approximately 6 minutes, while a data set with 278 samples and 7253 markers takes approximately 46min in a modern CPU. 
 ![4](https://user-images.githubusercontent.com/84511468/124537577-8d73d400-ddf0-11eb-93b2-807d6dd16b42.png)
+
+In the GA-I tab it is necessary to select one of the three most indicated clustering schemes to use in the analysis. It is possible to go through all further tabs analyzing if the clustering schemes fits the data, you always can come back to GA-I tab and change the clustering scheme. Furthermore, it is possible to change the threshold that defines if a sample is considered as a contaminant. 
+![5](https://user-images.githubusercontent.com/84511468/124638790-c4360280-de61-11eb-86ce-d5e6b1c887cc.png)
 
 
 
