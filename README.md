@@ -53,8 +53,12 @@ In the Selecting Parents tab, it is necessary to define the progeny parents. Bey
 The PCA tab shows the PCA scatterplot of the population, it can be redone by clickind Select again in the Selecting Parents tab. Clicking in the Yes! buttom makes the app run the GA and CA, it may take several minutes depending on the dataset size. A dataset with 238 samples and 1195 markers takes approximately 6 minutes, while a data set with 278 samples and 7253 markers takes approximately 46min in a modern CPU. 
 ![4](https://user-images.githubusercontent.com/84511468/124537577-8d73d400-ddf0-11eb-93b2-807d6dd16b42.png)
 
-In the GA-I tab it is necessary to select one of the three most indicated clustering schemes to use in the analysis. It is possible to go through all further tabs analyzing if the clustering schemes fits the data, you always can come back to GA-I tab and change the clustering scheme. Furthermore, it is possible to change the threshold that defines if a sample is considered as a contaminant. 
+In the GA-I tab it is necessary to select one of the three most indicated clustering schemes to use in the analysis. It is possible to go through all further tabs analyzing if the clustering schemes fits the data, you always can come back to GA-I tab and change the clustering scheme. Furthermore, it is possible to change the threshold that defines if a sample is considered as a contaminant. For this dataset, the clustering scheme that correctly separate the samples is the second.
 ![5](https://user-images.githubusercontent.com/84511468/124638790-c4360280-de61-11eb-86ce-d5e6b1c887cc.png)
+  
+The Contaminant Identification tab shows a PCA scatterplot with the samples labeled as their type, and a final confirmation of the samples that are going to be removed.
+![6](https://user-images.githubusercontent.com/84511468/124699494-4570b200-dec1-11eb-8d9e-3485cce34574.png)
+
 
 
 
