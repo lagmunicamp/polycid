@@ -783,7 +783,7 @@ shinyServer(function(input, output){
   
   output$finalResults <- renderUI({
     tabPanel("Run",fluidRow(
-      column(12,box(title = "Principal Component Analysis", solidHeader = TRUE, status = "primary", "This is the final PCA without the ", strong("contaminants"), " removed. Below you can download all the calculated measures of polyCID and also the final marker dataset filtered.")),
+      column(12,box(title = "Principal Component Analysis", solidHeader = TRUE, status = "primary", "This is the final PCA without the ", strong("contaminants"), " identified. Below you can download all the calculated measures of polyCID and also the final marker dataset filtered.")),
       column(12, withSpinner(plotOutput("pcaFinal", width = "90%"))),
       column(12, align="center", downloadButton("PCADownloadFinal","Download PCA plot")),
       column(12, HTML("<br/>")),
