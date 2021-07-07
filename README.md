@@ -59,6 +59,9 @@ In the GA-I tab it is necessary to select one of the three most indicated cluste
 The Contaminant Identification tab shows a PCA scatterplot with the samples labeled as their type, and a final confirmation of the samples that are going to be removed.
 ![6](https://user-images.githubusercontent.com/84511468/124699494-4570b200-dec1-11eb-8d9e-3485cce34574.png)
 
+Finally, in the Results tab there is a PCA scatterplot without the contaminants identified and it is possible to download the filtered dataset. Furthermore the GA measures and the clustering results can be downloaded too. The GA results can be used in the Input Data tab to reduce the time of analysis if you want to run again. 
+![7](https://user-images.githubusercontent.com/84511468/124779651-5567b080-df18-11eb-9e5a-968e97a60afa.png)
+
 
 
 
