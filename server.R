@@ -13,7 +13,7 @@ shinyServer(function(input, output){
   output$image_menu1 <- renderUI({
     fluidRow(
       column(12,valueBox(width = NULL, "Welcome Breeder!", "polyCID - Polyploid Contaminant Identification", color="navy",icon = icon("pagelines"))),
-      column(12,box(width = NULL, title=NULL, solidHeader = TRUE, "polyCID is an user friendly R shiny app based on preprocessed GBS data for detection and classification of putative contaminants in biparental polyploid populations, including apomictic clones, self-fertilization, half-siblings and/or full contaminants individuals. You can explore our simulated data to learn how to interact with the tool, as well as access, modify all datasets and adapt them to your research needs. By going through the workflow below, you will become familiar with all the steps involved in the analysis. Enjoy it!"
+      column(12,box(width = NULL, title=NULL, solidHeader = TRUE, "polyCID is a user-friendly R shiny app based on preprocessed GBS data for detection and classification of putative contaminants in biparental polyploid populations, including apomictic clones, self-fertilization, half-siblings and/or full contaminants individuals. You can explore our simulated data to learn how to interact with the tool, as well as access, modify all datasets and adapt them to your research needs. By going through the workflow below, you will become familiar with all the steps involved in the analysis. Enjoy it!"
       )),
       column(12,renderImage({return(list(src = "www/workflow.jpg",filetype = "image/png",width = "70%",height = "110%",style="display: block; margin-left: auto; margin-right: auto;"))},deleteFile=FALSE)
       ))
@@ -43,7 +43,7 @@ shinyServer(function(input, output){
     
     tabPanel("Description",fluidRow(
       column(12,
-             box(title = "SNP dataset", solidHeader = TRUE, status = "primary", "The analysis will be performed with the supplied dataset. If you wish to analyse another dataset, select the option ", strong("add dataset"), " or if you wish to check the data format, click on ", strong("download dataset"),".",br(),br(),
+             box(title = "SNP dataset", solidHeader = TRUE, status = "primary", "The analysis will be performed with the supplied dataset. If you wish to analyze another dataset, select the option ", strong("add dataset"), " or if you wish to check the data format, click on ", strong("download dataset."),br(),br(),
                 fluidRow(
                   column(6,downloadButton("downloadData","Download SNP dataset")),
                   column(6,checkboxInput(inputId = "example", label = "Add dataset", value = FALSE))
@@ -65,7 +65,7 @@ shinyServer(function(input, output){
               column(6,selectizeInput('ploidy',"Ploidy",choices = c(4,6),selected=4))
             )
         ),
-        box(title = "GA dataset", solidHeader = TRUE, status = "primary", "Would you like to insert GA values already calculated? If you wish to check the data format, click on ",strong("download GA dataset"),".",br(),br(),
+        box(title = "GA dataset", solidHeader = TRUE, status = "primary", "Would you like to insert GA values already calculated? If you wish to check the data format, click on ",strong("download GA dataset."),br(),br(),
             fluidRow(
               column(6,downloadButton("downloadDataGAs","Download GA dataset")),
               column(6,checkboxInput(inputId = "gas", label = "Insert GA values", value = FALSE)))
@@ -694,7 +694,7 @@ shinyServer(function(input, output){
     pca_data2$type <- as.character(markers$pca_results$type)
     pca_data2$type[row.names(pca_data2) %in% markers$acs] <- "Apomictic Clone"
     pca_data2$type[row.names(pca_data2) %in% markers$sps] <- "Self Fertilization"
-    pca_data2$type[row.names(pca_data2) %in% markers$hsfc] <- "Full Cont/Half Sibling"
+    pca_data2$type[row.names(pca_data2) %in% markers$hsfc] <- "Full Cont/Half-Sibling"
     pca_data2$type <- as.factor(pca_data2$type)
     
     markers$PCAplot2 <- ggplot(pca_data2,aes(x = PC1, y = PC2)) + geom_point(aes(col=type),alpha=0.7,size=3)+
