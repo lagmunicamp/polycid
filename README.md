@@ -13,7 +13,7 @@ Martins and Moraes et al. (2021)
 
 ## Launching polyCID Local Session
 
-The polyCID shiny app must be launched from a R session on your local machine. After launching the back-end, an user interface will be openned on a R window, this window can be openned on your web browser too. 
+The polyCID shiny app must be launched from a R session on your local machine. After launching the back-end, a user interface will be opened on a R window, this window can be openned on your web browser too. 
 
 ### Quick install/launch instructions
 
