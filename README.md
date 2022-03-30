@@ -6,7 +6,7 @@ polyCID is a user-friendly R shiny app based on preprocessed GBS data for detect
 ![workflow](https://user-images.githubusercontent.com/84511468/123974273-e24bc080-d992-11eb-9b59-08a9f9ea3770.jpg)
 ## Citation
 
-polyCID is provided under a free-of-charge, open-source license (A-GPL3). All we require is that you cite/attribute the following in any work that benefits from this code or application.
+polyCID is provided under a free-of-charge. All we require is that you cite/attribute the following in any work that benefits from this code or application.
 
 Martins and Moraes et al. (2021)
 [An Automated SNP-Based Approach for Contaminant Identification in Biparental Polyploid Populations of Tropical Forage Grasses](https://www.biorxiv.org/content/10.1101/2021.07.01.450796v1.full).
